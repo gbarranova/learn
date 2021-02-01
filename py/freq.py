@@ -1,0 +1,5 @@
+x = input("Mensagem: ")
+x = x.lower()
+y = len(x)
+z = x.count("a")
+print(f"Tem {y} letras com {z} as ")
